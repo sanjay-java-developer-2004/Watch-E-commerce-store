@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Web Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href=" https://fontawesome.com/icons/house?f=classic&s=solid">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body style="background-color:beige;">
+
+    <nav class="nav-container">
+        <h1>Time Space</h1>
+        <div class="nav-menu">
+            <a href="index.html">Home </a>
+            <a href="shop.html">Shop</a>
+            <a href="index.html">New Arraival</a>
+            <a href="index.html">Luxury Watches</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-menu">
+
+            <abbr title="Search"><input type="text" placeholder="search" id="search-bar"><i
+                    class="fa-solid fa-magnifying-glass" id="search-tongle" onclick="show()"
+                    ondblclick="remove()"></i></abbr>
+            <abbr title="Cart"><a href="#"> <i class="fa-solid fa-cart-arrow-down"></i></a></abbr>
+            <button>Login<i class="fa-solid fa-right-to-bracket"></i></button>
+        </div>
+    </nav>
+
+
+    
+<!-- side-nav-bar-tongle -->
+ <div class="side-nav-bar-menu-tongle" id="nav-bar-tongle">
+    <i class="fa-solid fa-bars" onclick="shownavbar()"></i>
+ </div>
+
+<!-- side-nav-bar -->
+<div class="side-nav-bar-container" id="show-nav-bar">
+    <div class="side-nav-bar-head">
+       <h1>Time Space</h1>
+       <i class="fa-solid fa-x" onclick="removenavbar()"></i>
+</div>
+       <div class="side-nav-menu">
+            <a href="index.html">Home </a>
+            <a href="shop.html">Shop</a>
+            <a href="index.html">New Arraival</a>
+            <a href="index.html">Luxury Watches</a>
+            <a href="contact.html">Contact</a>
+        </div>
+ </div>
+    <!-- Shops grid -->
+    <div class="shop-container">
+        <div class="shop-contant">
+
+            <div class="shop-product">
+                <img src="https://zimsonwatches.com/cdn/shop/files/G1527.jpg?v=1761822899&width=1946"
+                    alt="shopimg1">
+                <p>Omega-Classic</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-product">
+                <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250407/rHLs/67f401367a6cd4182fb1824b/-1117Wx1400H-701426266-gold-MODEL.jpg"
+                    alt="shopimg2">
+                <p>Fossil-vintage</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-product">
+                <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwa57e4d55/images/Fastrack/Catalog/68034PL02W_1.jpg?sw=600&sh=600"
+                    alt="shopimg3">
+                <p>Titan-Class</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-product">
+                <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw29de3414/images/Fastrack/Catalog/68034PP10W_1.jpg?sw=600&sh=600"
+                    alt="shopimg4">
+                <p>Tissot-auro</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-product">
+                <img src="https://image.cdn.shpy.in/352617/gucci-analog-watch-47-1707720768890_SKU-0657_0.jpg?width=600&format=webp"
+                    alt="shopimg5">
+                <p>Sonata-Sonic</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-product">
+                <img src="https://shop.timexindia.com/cdn/shop/files/TWEG19941_670x.jpg?v=1726553737"
+                    alt="shopimg6">
+                <p>Seiko-Royal</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-product">
+                <img src="https://static.helioswatchstore.com/media/catalog/product/9/0/90110wl04_1_3.jpg"
+                    alt="shopimg7">
+                <p>Rolex-Royal</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-product">
+                <img src="https://static.helioswatchstore.com/media/catalog/product/9/0/90144qm01_1_3.jpg"
+                    alt="shopimg8">
+                <p>Timex-Clssic</p>
+                <h4>₹299</h4>
+                <div class="btn-sp">
+                    <button>Buy</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="container bg-dark" style="color: white;max-width: 1500px; max-height: 350px; height: 100%;">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-light">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                                class="visually-hidden">Email address</label> <input id="newsletter1" type="email"
+                                class="form-control" placeholder="Email address"> <button class="btn btn-primary"
+                                type="button">Subscribe</button> </div>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2025 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><svg class="bi"
+                                width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><svg class="bi"
+                                width="24" height="24" aria-hidden="true">
+                                <use xlink:href="#facebook"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c7771d57c0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
