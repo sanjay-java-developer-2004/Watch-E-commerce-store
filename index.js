@@ -1,9 +1,10 @@
 let showsearch=document.getElementById("search-bar")
 function show(){
+    if(showsearch.style.display === "none"){
     showsearch.style.display="block";
+}else{
+    showsearch.style.display="none";
 }
-function remove(){
-    showsearch.style.display="none"
 }
 
 
@@ -11,6 +12,7 @@ let showbar=document.getElementById("show-nav-bar")
 let tongle=document.getElementById("nav-bar-tongle")
 
 function shownavbar(){
+
     showbar.style.display="flex"
     tongle.style.display="none"
 }

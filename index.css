@@ -320,7 +320,16 @@ img:hover{
 
 
 /* ------------------------------------------------------------Shop Pages--------------------------------------------------------------------------- */
-
+.shop-heading{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 100px;
+}
 .shop-product img{
   width: 300px;
   height: 350px;
@@ -427,7 +436,7 @@ img:hover{
   border-radius: 10px;
 }
 .contact-contant button{
-  width: 400px;
+  width: 350px;
   height: 50px;
   padding: 10px;
   border-radius: 10px;
@@ -445,7 +454,7 @@ img:hover{
 
 
 
-@media(max-width:480px){
+@media(max-width:380px){
 
   /* nav bar */
 
@@ -458,13 +467,14 @@ img:hover{
 
   }
   .side-nav-bar-menu-tongle i{
-    margin-left: 390px;
+    margin-left: 330px;
     color: rgb(0, 0, 0);
+    z-index: 1;
   }
 
   /* landing page */
 .Head-container{
-  width:480px;
+  width:380px;
   height:400px;
   flex-direction: column;
   background-image: url(https://images.unsplash.com/photo-1539874754764-5a96559165b0?q=80&w=1230&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -479,7 +489,7 @@ img:hover{
 }
 /* New Arrivals */
 .card-group{
-  width:450px;
+  width:350px;
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
@@ -492,7 +502,7 @@ img:hover{
   align-items: center;
 }
 .card img{
-  width: 300px;
+  width: 280px;
 }
 /* details containers */
 .details-container{
@@ -506,14 +516,20 @@ img:hover{
 }
 .contant-3{
   flex:2;
-  width:450px;
+  width:380px;;
   order: -1;
 }
+.contant-3 img{
+  width: 350px;
+}
+
 .contant-1,.contant-4{
+  flex-direction: row;
   bottom:1px;
   left:1px;
 }
 .contant-2,.contant-5{
+  flex-direction: row;
   top: 1px;
   right: 1px;
 }
@@ -525,11 +541,11 @@ img:hover{
 /* perfect */
 .perfect-container
 {
-  width:480px;
+  width:380px;
 }
 /* explore */
 .explore-container{
-  width: 480px;
+  width: 380px;
   margin-left: 0;
   background-position:left;
 }
@@ -538,12 +554,14 @@ img:hover{
 /* contact */
 
 .contact-container{
-  width: 480px;
+  width: 380px;
   height: auto;
   justify-content: center;
   align-items: center;
 }
 .contact-head{
-  width:480px;
+  width:360px;
+  align-items: center;
+  justify-content: center;
 }
 }
